@@ -2,14 +2,28 @@ Travis Hello [![License][license-img]][license-url] [![GitHub Stars][stars-img]]
 =
 Simple Travis examples with different languages.
 
-Examples are available for:
+It show you how you can use the Travis continuous integration system to automaticcaly have your code tested on every change. See [Quick start](#quick-start) below for instructions on how to use those examples for your own projects.
+
+Examples are currently available for:
 
 * [**C++**][cpp-url] (default GCC and Clang compilers)
 * [**Modern C++**][modern-cpp-url] (recent versions of GCC and Clang compilers)
 
-Why a separate vesrions for C++? The onle with older compiers is faster but the one with newer compilers has support for C++14 and beyond. See [travis-hello-modern-cpp][modern-cpp-url] for details.
+Why a separate vesrions for C++? The one with older compiers is faster but the one with newer compilers has support for C++14 and beyond. See [travis-hello-modern-cpp][modern-cpp-url] for details.
 
-To request more languages, please [post an issue][issues-url].
+This is work in progress, more examples will be added in the future.
+To request more languages or other CI systems, please [post an issue][issues-url].
+
+Quick start
+-----------
+
+* you need an account on [GitHub][github-website]
+* you need to log into [Travis][travis-website] using your GitHub login
+* create a [new project on GitHub](https://github.com/new)
+* go to [Travis profile](https://travis-ci.org/profile) and click "Sync account"
+* on the same page, turn on the checkbox next to your project's name
+
+From now on, when you commit a file called `.travis.yml` into your project on GitHub, Travis will automatically start testing your project. You can base your `.travis.yml` file on one of the files from the specific examples linked above, e.g. [travis-hello-cpp][cpp-url] for C++ projects. As long as your project can be built with `make` and tested with `make test` then putting `.travis.yml` from one of my examples should be enough, but you need to use the right example suitable for your project - like e.g. [travis-hello-modern-cpp][modern-cpp-url] for modern versions of C++ etc. If you don't have `make` and `make test` already working then you can see other files like `Makefile` and `test` from the examples for a good place to start.
 
 Issues
 ------
@@ -29,6 +43,8 @@ License
 -------
 MIT License (Expat). See [LICENSE.md](LICENSE.md) for details.
 
+[github-website]: https://github.com/
+[travis-website]: https://travis-ci.org/
 [cpp-url]: https://github.com/rsp/travis-hello-cpp
 [modern-cpp-url]: https://github.com/rsp/travis-hello-modern-cpp
 [cpp-travis-url]: https://travis-ci.org/rsp/travis-hello-cpp
