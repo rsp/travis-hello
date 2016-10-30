@@ -7,6 +7,8 @@ Examples are available for:
 * [**C++**][cpp-url] (default GCC and Clang compilers)
 * [**Modern C++**][modern-cpp-url] (recent versions of GCC and Clang compilers)
 
+Why a separate vesrions for C++? The onle with older compiers is faster but the one with newer compilers has support for C++14 and beyond. See [travis-hello-modern-cpp][modern-cpp-url] for details.
+
 To request more languages, please [post an issue][issues-url].
 
 Issues
@@ -29,6 +31,10 @@ MIT License (Expat). See [LICENSE.md](LICENSE.md) for details.
 
 [cpp-url]: https://github.com/rsp/travis-hello-cpp
 [modern-cpp-url]: https://github.com/rsp/travis-hello-modern-cpp
+[cpp-travis-url]: https://travis-ci.org/rsp/travis-hello-cpp
+[cpp-travis-img]: https://travis-ci.org/rsp/travis-hello-cpp.svg?branch=master
+[modern-cpp-travis-url]: https://travis-ci.org/rsp/travis-hello-modern-cpp
+[modern-cpp-travis-img]: https://travis-ci.org/rsp/travis-hello-modern-cpp.svg?branch=master
 [github-url]: https://github.com/rsp/travis-hello
 [readme-url]: https://github.com/rsp/travis-hello#readme
 [issues-url]: https://github.com/rsp/travis-hello/issues
