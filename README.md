@@ -4,7 +4,7 @@ Simple Travis examples with different languages.
 
 Examples are available for:
 
-* [C++][cpp-url]
+* [**C++**][cpp-url]
 
 To request more languages, please [post an issue][issues-url].
 
