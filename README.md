@@ -4,7 +4,7 @@ Simple Travis examples with different languages.
 
 Examples are available for:
 
-* [**C++**][cpp-url] (default GCC and CLang compilers)
+* [**C++**][cpp-url] (default GCC and Clang compilers)
 * [**Modern C++**][modern-cpp-url] (recent versions of GCC and Clang compilers)
 
 To request more languages, please [post an issue][issues-url].
