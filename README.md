@@ -2,18 +2,29 @@ Travis Hello
 =
 Simple Travis examples with different languages.
 
-See:
+Examples are available for:
 
 * [C++][travis-hello-cpp-url]
 
+To request more languages, please [post an issue][issues-url].
+
+Issues
+------
+For any bug reports or feature requests please
+[post an issue on GitHub][issues-url].
+
 Author
 ------
-[**Rafał Pocztarski<br/>https://pocztarski.com/**](https://pocztarski.com/)
+[**Rafał Pocztarski**](https://pocztarski.com/)
 <br/>
 [![Follow on GitHub][github-follow-img]][github-follow-url]
 [![Follow on Twitter][twitter-follow-img]][twitter-follow-url]
 <br/>
 [![Follow on Stack Exchange][stackexchange-img]][stackoverflow-url]
+
+License
+-------
+MIT License (Expat). See [LICENSE.md](LICENSE.md) for details.
 
 [travis-hello-cpp-url]: https://github.com/rsp/travis-hello-cpp
 [github-url]: https://github.com/rsp/travis-hello
