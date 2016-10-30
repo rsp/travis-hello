@@ -23,7 +23,9 @@ Quick start
 * go to [Travis profile](https://travis-ci.org/profile) and click "Sync account"
 * on the same page, turn on the checkbox next to your project's name
 
-From now on, when you commit a file called `.travis.yml` into your project on GitHub, Travis will automatically start testing your project. You can base your `.travis.yml` file on one of the files from the specific examples linked above, e.g. [travis-hello-cpp][cpp-url] for C++ projects. As long as your project can be built with `make` and tested with `make test` then putting `.travis.yml` from one of my examples should be enough, but you need to use the right example suitable for your project - like e.g. [travis-hello-modern-cpp][modern-cpp-url] for modern versions of C++ etc. If you don't have `make` and `make test` already working then you can see other files like `Makefile` and `test` from the examples for a good place to start.
+From now on, when you commit a file called `.travis.yml` into your project on GitHub, Travis will automatically start testing your project on every new change.
+
+You can base your `.travis.yml` file on one of the files from the specific examples linked above, e.g. [travis-hello-cpp][cpp-url] for C++ projects. As long as your project can be built with `make` and tested with `make test` then putting `.travis.yml` from one of my examples should be enough, but you need to use the right example suitable for your project - like e.g. [travis-hello-modern-cpp][modern-cpp-url] for modern versions of C++ etc. If you don't have `make` and `make test` already working then you can see other files like `Makefile` and `test` from the examples for a good place to start.
 
 Issues
 ------
